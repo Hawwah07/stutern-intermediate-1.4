@@ -1,8 +1,8 @@
 console.log('Stutern Cohort 1.4');
 
 
-document.getElementById("wrappper").innerHTML = "<p>Lily Nnabeze</p>";
-document.getElementById("name").innerText = "Joyce Adindu";
+// document.getElementById("wrappper").innerHTML = "<p>Lily Nnabeze</p>";
+// document.getElementById("name").innerText = "Joyce Adindu";
 
 // function that gets difference between two numbers
 function subtract (number1, number2) {

@@ -31,5 +31,5 @@ switch (studentGroup) {
     default:
         console.log('English, Mathematics');
         break;
-}
+} 
 

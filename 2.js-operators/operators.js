@@ -6,6 +6,8 @@ console.log(cash == expenses) // weak equality operator - checks if values are t
 console.log(cash === expenses) // strict equality operator - checks if the values and the data types are the same
 
 console.log(true == 1);
+console.log(true == 0);
+// 1 is a truthy value and Zero is a falsy value
 
 // TERNARY OPERATOR
 let myAge = 34;
@@ -20,19 +22,20 @@ let myAge = 34;
 // LOGICAL OPERATORS;
 let nationality = 'American';
 
+//Logical and (&&) to check if two condition are true
 (myAge >= 18 && nationality === 'Nigerian') ? console.log('Eligible to Vote') : console.log('Not Eligible to Vote')
 // true && false
 
-// AND Operators - &&
-// OR Operator - ||
+// AND Operators - && both sides must be true
+// OR Operator - || when either side evaluate to true 
 
 let WAEC = 'PASS';
 let NECO = 'PASS';
 
-(WAEC === 'FAIL' || NECO === 'FAIL') ? console.log('Admitted') : console.log('Not Admitted')
+(WAEC === 'PASS' || NECO === 'FAIL') ? console.log('Admitted') : console.log('Not Admitted')
 
 // // OPERATOR PRECEDENCE
-// // BODMAS?
+// // BODMAS? Bracket Of Division Multiplication Addition Substraction
 
 // // PEMDAS -> Parenthesis, Exponent, Multiplication, Division, Addition, Subtraction
 

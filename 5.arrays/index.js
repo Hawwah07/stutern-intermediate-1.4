@@ -77,7 +77,7 @@ console.log("Last country is " + lastItemAlt2);
 console.log(countries);
 const removed_element = countries.pop();
 console.log(countries);
-console.log("The removed element is " + removedElement);
+console.log("The removed element is " + removed_element);
 
 // removing the first element
 const removedElementFirst = countries.shift();

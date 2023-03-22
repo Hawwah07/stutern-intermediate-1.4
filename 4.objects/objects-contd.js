@@ -1,4 +1,4 @@
-//Q: I want you to create an address object with three properties, street, city, and zip code using the object literal syntax.
+ //Q: I want you to create an address object with three properties, street, city, and zip code using the object literal syntax.
 
 const address = {
   street: "Yaba",
@@ -203,7 +203,7 @@ console.log({ thirdBook });
 
 // Option 3 - Using the method JSON.parse(JSON.stringify())
 // JSON - JavaScript Object Notation
-const fourthBook = JSON.parse;
+const fourthBook = JSON.parse(JSON.stringify(firstBook));
 fourthBook.title = "Notes on Grief";
 console.log({ firstBook });
 console.log({ fourthBook });
@@ -243,6 +243,10 @@ console.log({ secondBookInfo });
 // it means list the properties in that object
 
 // Below are ways we can enumerate properties in an object
+for (const property in secondBookInfo) {
+  console.log (property);
+  console.log(secondBookInfo[property]);
+}
 
 //for..in loops
 for (const key in secondBookInfo) {

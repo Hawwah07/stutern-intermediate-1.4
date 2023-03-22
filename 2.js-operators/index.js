@@ -1,10 +1,10 @@
 
-
+// let result =  document.getElementById("result")
 
 // result.innerText = 'Result here...'
 
 
-// Arithmetic Operations
+// Arithmetic Operations -calculates with one or more variables
 let a = 100;
 let b = 45;
 
@@ -34,7 +34,7 @@ let c = 50;
 let remainder = a % c;
 console.log('Remainder of a divided by c equals ' + remainder);
 
-// EXPONENTIAL OPERATOR **
+// EXPONENTIAL OPERATOR ** Raised to the power of 
 let exponentResult = c ** 3;
 console.log('exponent result equals ' + exponentResult);
 
@@ -54,19 +54,19 @@ let numberOfCars  = 66;
 console.log('number of cars is ' +  ++numberOfCars);
 
 let numberOfOranges  = 99;
-console.log('I now have ' + numberOfOranges++ + ' oranges')
+console.log('I now have ' + numberOfOranges++ + ' oranges');
 
 ++numberOfOranges // 100 => (1 + numberOfOranges)
 numberOfOranges++ // 99; add 1 in the next variable call 
 
 // ASSIGNMENT OPERATION
-let x = x + 1; // is same as let x++
-let y = y - 1; // is same as let y--
+// let x = x + 1; // is same as let x++
+// let y = y - 1; // is same as let y--
 
-let z = z + 6 // is same as let z += 6;
-let w = w - 6 // is same as let w -= 6;
-let p = p * 6 // is same as let p *= 6;
-let q = q / 6 // is same as let q /= 6;
+// let z = z + 6 // is same as let z += 6;
+// let w = w - 6 // is same as let w -= 6;
+// let p = p * 6 // is same as let p *= 6;
+// let q = q / 6 // is same as let q /= 6;
 
 // COMPARISON OPERATOR (>, <, >=, <=, , !=, !==, ==, ===)
 let d = -34;

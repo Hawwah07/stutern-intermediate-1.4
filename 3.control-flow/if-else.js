@@ -7,7 +7,7 @@
 
 let myAge = 20;
 let eligibleVoterAge = 18;
-
+(myAge >= eligibleVoterAge) ? console.log("Eligible to vote") : console.log("Not eligible");
 if (myAge >= eligibleVoterAge) {
   // output is when condition evaluates to true
   console.log("Eligible to vote");
@@ -37,7 +37,7 @@ if (myAge >= eligibleVoterAge) {
 
 // Edge cases
 
-let mathScore = -12;
+let mathScore = 180;
 
 if (mathScore >= 70 && mathScore <= 100) {
   console.log("A1");

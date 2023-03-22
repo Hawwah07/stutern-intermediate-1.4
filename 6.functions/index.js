@@ -89,20 +89,20 @@ function bottleCapper (bottle, cap) {
     }
   }
   
-  const createCar = function () {
-    return {
-      name: 'Toyota',
-      model: 'Avensis'
-    }
-  }
+  // const createCar = function () {
+  //   return {
+  //     name: 'Toyota',
+  //     model: 'Avensis'
+  //   }
+  // }
   
   // function () changes to () =>
-  const createCar = () => {
-    return {
-      name: 'Toyota',
-      model: 'Avensis'
-    }
-  }
+  // const createCar = () => {
+  //   return {
+  //     name: 'Toyota',
+  //     model: 'Avensis'
+  //   }
+  // }
   
   
   let multBy2 = [1,2,3,4].map(function (num) {
@@ -115,3 +115,5 @@ function bottleCapper (bottle, cap) {
      let result = num * 2;
     return result
   })
+
+  console.log(multiBy2);

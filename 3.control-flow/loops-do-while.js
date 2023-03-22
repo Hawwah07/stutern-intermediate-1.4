@@ -53,7 +53,7 @@ do {
 console.log(doWhileSum);
 
 // BREAK AND CONTINUE
-
+// Break will stop the loop while continue will skip a loop 
 // Problem Statement: Find the sum of positive numbers between 10 and 20.
 // Do not add numbers greater than 15
 // Solution: Here we demonstrate the use of 'break' the exist the loop

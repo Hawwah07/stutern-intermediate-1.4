@@ -28,12 +28,12 @@ let age = 20;
 // age = "Daniel";
 // console.log("I am " + age + " years old.")
 
-// Dynamically / Weakly typed language
+// Dynamically / Weakly typed language the type of variable is determined at the point of exercusion.
 
-console.log("54" + 5);
-// console.log(73 + "5");
-// console.log("65" - 6);
-console.log("34" + "6");
+console.log("54" + 5); //545
+// console.log(73 + "5"); //735
+// console.log("65" - 6); //59
+console.log("34" + "6"); //346
 
 // let
 // const
@@ -42,13 +42,13 @@ console.log("34" + "6");
 
 /**
  * there are 8 datatypes in JavaScript
- * - Number
- * - String
+ * - Number 
+ * - String - value has a quote
  * - Boolean (true/false)
- * - null
- * - undefined
- * - BigInt
- * - Symbol
+ * - null no value
+ * - undefined no value
+ * - BigInt large numbers e.g over 15 figure
+ * - Symbol 
  * - Object
  * - Arrays
  *  */ 
